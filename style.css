@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    display: flex; 
+    justify-self: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px, 20px, 0px, 20px
+}
+.logo {
+    height: 40%;
+}
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
